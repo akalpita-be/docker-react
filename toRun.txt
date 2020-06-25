@@ -1,0 +1,6 @@
+docker run -it -p 3000:3000 -v /app/node_modules -v /D/UserData/z003w67p/dockerSamples/frontend:/app -e CHOKIDAR_USEPOLLING=true akalpita123/reactapp
+
+or share the folder
+\\192.168.163.65\dockerSamples\frontend
+
+and then add above 
